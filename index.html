@@ -66,11 +66,11 @@
 </head>
 <body class="min-h-screen bg-gray-100 dark:bg-gra-900 text-gray-900 dark:text-gray-100 transition-colors duration-300 font-sans">
 
-<header class="bg-green-600 text-white p-4 flex justify-between items-center shadow-md">
-  <h1 class="text-xl font-bold">W3CSS Class Codes</h1>
+<header class="bg-red-600 text-white p-4 flex justify-between items-center shadow-md">
+  <h1 class="text-xl font-bold">JavaScript Class Codes</h1>
   <div class="flex items-center gap-4">
     <!-- Hamburger Icon -->
-    <button id="menu-btn" class="text-2xl md:hidden p-2 rounded hover:bg-green-700 transition-colors" onclick="toggleSidebar()">
+    <button id="menu-btn" class="text-2xl md:hidden p-2 rounded hover:bg-red-800  transition-colors" onclick="toggleSidebar()">
       <i id="hamburger-icon" class="fas fa-bars"></i>
     </button>
 
@@ -80,7 +80,7 @@
     </button> -->
 
     <!-- Settings Button -->
-    <button class="p-2 rounded-full bg-gray-700 text-white hover:bg-gray-600 transition-colors" onclick="toggleSettings()" title="Settings">
+    <button class="p-2 rounded-full bg-red-700 text-white hover:bg-red-600 transition-colors" onclick="toggleSettings()" title="Settings">
       <i class="fas fa-cog text-lg"></i>
     </button>
   </div>
@@ -92,34 +92,28 @@
   <aside id="sidebar" class="sidebar w-72 bg-white dark:bg-gray-800 border-r border-gray-200 dark:border-gray-700 p-4 flex flex-col gap-4 fixed md:static top-0 left-0 h-full z-50 -translate-x-full md:translate-x-0">
     <input type="text" class="search-input p-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-gray-50 dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Search files..." oninput="filterFiles(this.value)" />
     <div class="file-list flex flex-col gap-2 max-h-[50vh] overflow-y-auto">
-      <div class="file-item p-2 bg-gray-100 dark:bg-gray-700 rounded-lg cursor-pointer hover:bg-blue-500 hover:text-white transition-colors" onclick="loadCode('w3.css')">w3.css</div>
       <hr>
-      <div class="file-item p-2 bg-gray-100 dark:bg-gray-700 rounded-lg cursor-pointer hover:bg-blue-500 hover:text-white transition-colors" onclick="loadCode('01_w3-color.html')">01_w3-color.html</div>
-      <div class="file-item p-2 bg-gray-100 dark:bg-gray-700 rounded-lg cursor-pointer hover:bg-blue-500 hover:text-white transition-colors" onclick="loadCode('02_w3-container.html')">02_w3-container.html</div>
-      <div class="file-item p-2 bg-gray-100 dark:bg-gray-700 rounded-lg cursor-pointer hover:bg-blue-500 hover:text-white transition-colors" onclick="loadCode('03_w3-panel.html')">03_w3-panel.html</div>
-      <div class="file-item p-2 bg-gray-100 dark:bg-gray-700 rounded-lg cursor-pointer hover:bg-blue-500 hover:text-white transition-colors" onclick="loadCode('04_w3-card.html')">04_w3-card.html</div>
-      <div class="file-item p-2 bg-gray-100 dark:bg-gray-700 rounded-lg cursor-pointer hover:bg-blue-500 hover:text-white transition-colors" onclick="loadCode('05_w3-round.html')">05_w3-round.html</div>
-      <div class="file-item p-2 bg-gray-100 dark:bg-gray-700 rounded-lg cursor-pointer hover:bg-blue-500 hover:text-white transition-colors" onclick="loadCode('06_w3-border.html')">06_w3-border.html</div>
-      <div class="file-item p-2 bg-gray-100 dark:bg-gray-700 rounded-lg cursor-pointer hover:bg-blue-500 hover:text-white transition-colors" onclick="loadCode('07_w3-font-size.html')">07_w3-font-size.html</div>
-      <div class="file-item p-2 bg-gray-100 dark:bg-gray-700 rounded-lg cursor-pointer hover:bg-blue-500 hover:text-white transition-colors" onclick="loadCode('08_external-font.html')">08_external-font.html</div>
-      <div class="file-item p-2 bg-gray-100 dark:bg-gray-700 rounded-lg cursor-pointer hover:bg-blue-500 hover:text-white transition-colors" onclick="loadCode('09_w3-wide.html')">09_w3-wide.html</div>
-      <div class="file-item p-2 bg-gray-100 dark:bg-gray-700 rounded-lg cursor-pointer hover:bg-blue-500 hover:text-white transition-colors" onclick="loadCode('10_text-shadow.html')">10_text-shadow.html</div>
-      <div class="file-item p-2 bg-gray-100 dark:bg-gray-700 rounded-lg cursor-pointer hover:bg-blue-500 hover:text-white transition-colors" onclick="loadCode('11_w3-table.html')">11_w3-table.html</div>
-      <div class="file-item p-2 bg-gray-100 dark:bg-gray-700 rounded-lg cursor-pointer hover:bg-blue-500 hover:text-white transition-colors" onclick="loadCode('12_w3-list.html')">12_w3-list.html</div>
-      <div class="file-item p-2 bg-gray-100 dark:bg-gray-700 rounded-lg cursor-pointer hover:bg-blue-500 hover:text-white transition-colors" onclick="loadCode('13_w3-padding.html')">13_w3-padding.html</div>
-      <div class="file-item p-2 bg-gray-100 dark:bg-gray-700 rounded-lg cursor-pointer hover:bg-blue-500 hover:text-white transition-colors" onclick="loadCode('14_list-close-btn.html')">14_list-close-btn.html</div>
-      <div class="file-item p-2 bg-gray-100 dark:bg-gray-700 rounded-lg cursor-pointer hover:bg-blue-500 hover:text-white transition-colors" onclick="loadCode('15_avtar-list.html')">15_avtar-list.html</div>
-      <div class="file-item p-2 bg-gray-100 dark:bg-gray-700 rounded-lg cursor-pointer hover:bg-blue-500 hover:text-white transition-colors" onclick="loadCode('16_w3-display-container.html')">16_w3-display-container.html</div>
-      <div class="file-item p-2 bg-gray-100 dark:bg-gray-700 rounded-lg cursor-pointer hover:bg-blue-500 hover:text-white transition-colors" onclick="loadCode('17_w3-opacity.html')">17_w3-opacity.html</div>
-      <div class="file-item p-2 bg-gray-100 dark:bg-gray-700 rounded-lg cursor-pointer hover:bg-blue-500 hover:text-white transition-colors" onclick="loadCode('18_w3-grayscale.html')">18_w3-grayscale.html</div>
-      <div class="file-item p-2 bg-gray-100 dark:bg-gray-700 rounded-lg cursor-pointer hover:bg-blue-500 hover:text-white transition-colors" onclick="loadCode('19_w3-sepia.html')">19_w3-sepia.html</div>
-      <div class="file-item p-2 bg-gray-100 dark:bg-gray-700 rounded-lg cursor-pointer hover:bg-blue-500 hover:text-white transition-colors" onclick="loadCode('20_hover-effects.html')">20_hover-effects.html</div>
-      <div class="file-item p-2 bg-gray-100 dark:bg-gray-700 rounded-lg cursor-pointer hover:bg-blue-500 hover:text-white transition-colors" onclick="loadCode('21-w3-grid.html')">21-w3-grid.html</div>
+
+
+
+
+      <div class="file-item p-2 bg-gray-100 dark:bg-gray-700 rounded-lg cursor-pointer hover:bg-blue-500 hover:text-white transition-colors" onclick="loadCode('01_intro.html')">01_intro.html</div>
+      <div class="file-item p-2 bg-gray-100 dark:bg-gray-700 rounded-lg cursor-pointer hover:bg-blue-500 hover:text-white transition-colors" onclick="loadCode('02_internal-js.html')">02_internal-js.html</div>
+      <div class="file-item p-2 bg-gray-100 dark:bg-gray-700 rounded-lg cursor-pointer hover:bg-blue-500 hover:text-white transition-colors" onclick="loadCode('03_external-js.html')">03_external-js.html</div>
+      <div class="file-item p-2 bg-gray-100 dark:bg-gray-700 rounded-lg cursor-pointer hover:bg-blue-500 hover:text-white transition-colors" onclick="loadCode('script.js')">script.js</div>
+      <div class="file-item p-2 bg-gray-100 dark:bg-gray-700 rounded-lg cursor-pointer hover:bg-blue-500 hover:text-white transition-colors" onclick="loadCode('04_variables.html')">04_variables.html</div>
+      <div class="file-item p-2 bg-gray-100 dark:bg-gray-700 rounded-lg cursor-pointer hover:bg-blue-500 hover:text-white transition-colors" onclick="loadCode('05_variables-2.html')">04_variables-2.html</div>
+     
+
+
+
     </div>
       <hr>
       <h3 style="margin-top: 10px;">Mini Projects</h3>
     <div class=" file-list flex flex-col gap-2 max-h-[50vh] overflow-y-auto">
-      <div class="file-item p-2 bg-gray-100 dark:bg-gray-700 rounded-lg cursor-pointer hover:bg-blue-500 hover:text-white transition-colors" onclick="loadCode('missile-man.html')">missile-man.html</div>
+
+
+
     </div>
   </aside>
 
@@ -127,8 +121,8 @@
     <div class="flex justify-between items-center mb-4">
       <h2 class="text-2xl font-semibold">Code Preview</h2>
       <div class="flex gap-2">
-        <button id="copy-btn" class="p-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors" onclick="copyCode()">Copy Code</button>
-        <button id="download-btn" class="p-2 bg-red-500 text-white rounded-lg hover:bg-purple-600 transition-colors" onclick="downloadCode()">Download</button>
+        <button id="copy-btn" class="p-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors" onclick="copyCode()">Copy Code</button>
+        <button id="download-btn" class="p-2 bg-red-500 text-white rounded-lg hover:bg-red-600 transition-colors" onclick="downloadCode()">Download</button>
       </div>
     </div>
     <div class="code-container rounded-lg">
